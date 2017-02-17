@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <itemPath>src/Clients.c</itemPath>
+      <itemPath>src/Clients.h</itemPath>
+      <itemPath>src/Heap.c</itemPath>
+      <itemPath>src/Heap.h</itemPath>
+      <itemPath>src/LinkedList.c</itemPath>
+      <itemPath>src/LinkedList.h</itemPath>
+      <itemPath>src/Log.c</itemPath>
+      <itemPath>src/Log.h</itemPath>
+      <itemPath>src/MQTTAsync.c</itemPath>
+      <itemPath>src/MQTTAsync.h</itemPath>
+      <itemPath>src/MQTTClient.c</itemPath>
+      <itemPath>src/MQTTClient.h</itemPath>
+      <itemPath>src/MQTTClientPersistence.h</itemPath>
+      <itemPath>src/MQTTPacket.c</itemPath>
+      <itemPath>src/MQTTPacket.h</itemPath>
+      <itemPath>src/MQTTPacketOut.c</itemPath>
+      <itemPath>src/MQTTPacketOut.h</itemPath>
+      <itemPath>src/MQTTPersistence.c</itemPath>
+      <itemPath>src/MQTTPersistence.h</itemPath>
+      <itemPath>src/MQTTPersistenceDefault.c</itemPath>
+      <itemPath>src/MQTTPersistenceDefault.h</itemPath>
+      <itemPath>src/MQTTProtocol.h</itemPath>
+      <itemPath>src/MQTTProtocolClient.c</itemPath>
+      <itemPath>src/MQTTProtocolClient.h</itemPath>
+      <itemPath>src/MQTTProtocolOut.c</itemPath>
+      <itemPath>src/MQTTProtocolOut.h</itemPath>
+      <itemPath>src/MQTTVersion.c</itemPath>
+      <itemPath>src/Messages.c</itemPath>
+      <itemPath>src/Messages.h</itemPath>
+      <itemPath>src/SSLSocket.c</itemPath>
+      <itemPath>src/SSLSocket.h</itemPath>
+      <itemPath>src/Socket.c</itemPath>
+      <itemPath>src/Socket.h</itemPath>
+      <itemPath>src/SocketBuffer.c</itemPath>
+      <itemPath>src/SocketBuffer.h</itemPath>
+      <itemPath>src/StackTrace.c</itemPath>
+      <itemPath>src/StackTrace.h</itemPath>
+      <itemPath>src/Thread.c</itemPath>
+      <itemPath>src/Thread.h</itemPath>
+      <itemPath>src/Tree.c</itemPath>
+      <itemPath>src/Tree.h</itemPath>
+      <itemPath>src/utf-8.c</itemPath>
+      <itemPath>src/utf-8.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>Makefile.paho</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <archiverTool>
+          <output>../../src/extralibs/libpahomqttv3d.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="src/Clients.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Clients.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Heap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Heap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/LinkedList.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/LinkedList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTAsync.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTAsync.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTClientPersistence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPacket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPacket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPacketOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPacketOut.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistence.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistenceDefault.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistenceDefault.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolOut.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTVersion.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Messages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Messages.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/SSLSocket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/SSLSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/SocketBuffer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/SocketBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/StackTrace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/StackTrace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Tree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utf-8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/utf-8.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>../../src/extralibs/libpahomqttv3.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="src/Clients.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Clients.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Heap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Heap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/LinkedList.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/LinkedList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTAsync.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTAsync.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTClientPersistence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPacket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPacket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPacketOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPacketOut.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistence.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistence.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistenceDefault.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTPersistenceDefault.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MQTTProtocolOut.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/MQTTVersion.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Messages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Messages.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/SSLSocket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/SSLSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/SocketBuffer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/SocketBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/StackTrace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/StackTrace.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Tree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/Tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utf-8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/utf-8.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

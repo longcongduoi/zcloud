@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>include/zdevice/ZDevice.h</itemPath>
+      <itemPath>include/zdevice/ZDeviceInfo.h</itemPath>
+      <itemPath>include/zdevice/ZDeviceManager.h</itemPath>
+      <itemPath>include/zdevice/ZVarInfo.h</itemPath>
+      <itemPath>include/zdevice/ZVarLastestValue.h</itemPath>
+      <itemPath>include/zdevice/ZVarValue.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/ZDevice.cpp</itemPath>
+      <itemPath>src/ZDeviceInfo.cpp</itemPath>
+      <itemPath>src/ZDeviceManager.cpp</itemPath>
+      <itemPath>src/ZVarInfo.cpp</itemPath>
+      <itemPath>src/ZVarLastestValue.cpp</itemPath>
+      <itemPath>src/ZVarValue.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../zcommon/include/msgpack</pElem>
+            <pElem>../zcommon/include</pElem>
+            <pElem>../zdb/include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/zdevice/ZDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZDeviceInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZDeviceManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZVarInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZVarLastestValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZVarValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ZDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZDeviceInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZDeviceManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZVarInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZVarLastestValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZVarValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../zcommon/include/msgpack</pElem>
+            <pElem>../zcommon/include</pElem>
+            <pElem>../zdb/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/zdevice/ZDevice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZDeviceInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZDeviceManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZVarInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZVarLastestValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdevice/ZVarValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ZDevice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZDeviceInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZDeviceManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZVarInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZVarLastestValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZVarValue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

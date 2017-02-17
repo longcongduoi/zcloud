@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>include/zdb/ZDBProxy.h</itemPath>
+      <itemPath>include/zdb/ZIdGenerator.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f1" displayName="hiredis" projectFiles="true">
+      <logicalFolder name="f1" displayName="include" projectFiles="true">
+        <itemPath>private/include/hiredis/fmacros.h</itemPath>
+        <itemPath>private/include/hiredis/hiredis.h</itemPath>
+        <itemPath>private/include/hiredis/net.h</itemPath>
+        <itemPath>private/include/hiredis/read.h</itemPath>
+        <itemPath>private/include/hiredis/sds.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="src" projectFiles="true">
+        <itemPath>src/hiredis/hiredis.c</itemPath>
+        <itemPath>src/hiredis/net.c</itemPath>
+        <itemPath>src/hiredis/read.c</itemPath>
+        <itemPath>src/hiredis/sds.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="redis3m" projectFiles="true">
+      <logicalFolder name="f1" displayName="include" projectFiles="true">
+        <itemPath>private/include/redis3m/cluster_pool.h</itemPath>
+        <itemPath>private/include/redis3m/command.h</itemPath>
+        <itemPath>private/include/redis3m/connection.h</itemPath>
+        <itemPath>private/include/redis3m/connection_pool.h</itemPath>
+        <itemPath>private/include/redis3m/patterns</itemPath>
+        <itemPath>private/include/redis3m/redis3m.hpp</itemPath>
+        <itemPath>private/include/redis3m/reply.h</itemPath>
+        <itemPath>private/include/redis3m/simple_pool.h</itemPath>
+        <itemPath>private/include/redis3m/utils</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="src" projectFiles="true">
+        <itemPath>src/redis3m/cluster_pool.cpp</itemPath>
+        <itemPath>src/redis3m/connection.cpp</itemPath>
+        <itemPath>src/redis3m/connection_pool.cpp</itemPath>
+        <itemPath>src/redis3m/patterns</itemPath>
+        <itemPath>src/redis3m/reply.cpp</itemPath>
+        <itemPath>src/redis3m/simple_pool.cpp</itemPath>
+        <itemPath>src/redis3m/utils</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/ZDBProxy.cpp</itemPath>
+      <itemPath>src/ZIdGenerator.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+          <incDir>
+            <pElem>private/include/hiredis</pElem>
+            <pElem>../zcommon/include</pElem>
+            <pElem>include</pElem>
+            <pElem>private/include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+            <pElem>../zcommon/include</pElem>
+            <pElem>include</pElem>
+            <pElem>private/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NO_BOOST</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/zdb/ZDBProxy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdb/ZIdGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/fmacros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/hiredis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/net.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/read.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/sds.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/cluster_pool.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/command.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/connection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/connection_pool.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/patterns" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/redis3m.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/reply.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/simple_pool.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/utils" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ZDBProxy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZIdGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/hiredis/hiredis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hiredis/net.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hiredis/read.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hiredis/sds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/redis3m/cluster_pool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/connection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/connection_pool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/patterns" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/redis3m/reply.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/simple_pool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/utils" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>10</standard>
+          <incDir>
+            <pElem>private/include/hiredis</pElem>
+            <pElem>../zcommon/include</pElem>
+            <pElem>include</pElem>
+            <pElem>private/include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+            <pElem>../zcommon/include</pElem>
+            <pElem>include</pElem>
+            <pElem>private/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NO_BOOST</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/zdb/ZDBProxy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zdb/ZIdGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/fmacros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/hiredis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/net.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/read.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/hiredis/sds.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/cluster_pool.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/command.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/connection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/connection_pool.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/patterns" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/redis3m.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/reply.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/redis3m/simple_pool.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/redis3m/utils" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ZDBProxy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZIdGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/hiredis/hiredis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hiredis/net.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hiredis/read.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/hiredis/sds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/redis3m/cluster_pool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/connection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/connection_pool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/patterns" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/redis3m/reply.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/simple_pool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/redis3m/utils" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
