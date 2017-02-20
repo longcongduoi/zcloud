@@ -52,18 +52,22 @@ void ZApiHTTPClient::setParam(const std::string key, const std::string value) {
     if(!d_ptr->param.empty()) {
         d_ptr->param.append(",");
     }
-    d_ptr->param.append("\"" + key + "\"");
-    d_ptr->param.append(":");
-    d_ptr->param.append("\"" + value + "\"");
+    
+        d_ptr->param.append("\"" + key + "\"");
+        d_ptr->param.append(":");
+        d_ptr->param.append("\"" + value + "\"");
+       
 }
 
 void ZApiHTTPClient::setReqBody() {
-    d_ptr->reqBody = "{" + d_ptr->param + "}";
+//    d_ptr->reqBody = "{" + d_ptr->param + "}";
+    d_ptr->reqBody = "[{\"name\": \"iot\", \"timestamp\": 1487090609, \"value\": 1.3}]";
 }
 
 void ZApiHTTPClient::sendRequest() {
     try {
-        std::string _uri = "http://" + d_ptr->host + ":" + std::to_string(d_ptr->port) + "/" + d_ptr->api;
+//        std::string _uri = "http://" + d_ptr->host + ":" + std::to_string(d_ptr->port) + "/" + d_ptr->api;
+        std::string _uri = "http://" + d_ptr->host + "/" + d_ptr->api;
         // prepare session
         URI uri(_uri);
         HTTPClientSession session(uri.getHost(), uri.getPort());
@@ -76,7 +80,7 @@ void ZApiHTTPClient::sendRequest() {
             HTTPRequest req(HTTPRequest::HTTP_GET, path, HTTPMessage::HTTP_1_1);
             session.sendRequest(req);
         } else if (d_ptr->method == "POST") {
-            HTTPRequest req(HTTPRequest::HTTP_POST, path, HTTPMessage::HTTP_1_1);
+            HTTPRequest req(HTTPRequest::HTTP_POST, path, HTTPMessage::HTTP_1_0);
             session.sendRequest(req) << d_ptr->reqBody;
         }
 

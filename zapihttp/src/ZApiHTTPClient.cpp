@@ -24,6 +24,9 @@ public:
     std::string data;
     std::string param;
     std::string reqBody;
+    
+    HTTPClientSession session;
+    
 };
 
 ZApiHTTPClient::ZApiHTTPClient() : d_ptr(new Impl) {
